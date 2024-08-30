@@ -2,6 +2,7 @@
 {
   imports = [
     ./vpsadminos.nix
+    ./users.nix
   ];
 
   environment.systemPackages = with pkgs; [
@@ -16,6 +17,8 @@
     zoxide
     direnv
     croc
+
+    mkpasswd
   ];
 
   services.openssh.enable = true;
