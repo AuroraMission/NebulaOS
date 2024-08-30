@@ -18,6 +18,9 @@
     direnv
     croc
 
+    zx
+    bazel
+
     mkpasswd
   ];
 
