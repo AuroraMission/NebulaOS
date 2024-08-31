@@ -21,7 +21,16 @@
     zx
     bazel
 
+    btop
+    tshark
+    rustscan
+    aircrack-ng
+
+    diskonaut
+
     mkpasswd
+
+    cargo
   ];
 
   services.openssh.enable = true;
