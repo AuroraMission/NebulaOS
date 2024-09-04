@@ -22,7 +22,7 @@ in {
     isSystemUser = false;
     home = "/home/inver";
     description = "Inver's user";
-    extraGroups = ["wheel" "networkmanager" "admins"];
+    extraGroups = ["wheel" "networkmanager" "admins" "docker"];
     hashedPassword = "$6$gItze0OHtU/27oFc$vyqpLErFMN2MCvhW7ZQmkHBSIfxbGPqzv1CQpMux0O0pVpxZkTVza/1vrDx4inCpDbsW25.jMhJ4l5zgKNff/1";
     shell = pkgs.nushell;
   };
