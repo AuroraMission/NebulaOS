@@ -1,24 +1,23 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 {
   users.groups.signoz = {};
 
   users.users.signoz = {
     uid = 3001;
     group = "signoz";
-    extraGroups = [ "signoz" "podman" "wheel" ];
+    extraGroups = [ "podman" ];
     isNormalUser = false;
     isSystemUser = true;
-    home = "/service/signoz";
   };
 
   systemd.services.signoz = {
     enable = true;
     after  = [ "network.target" ]; 
     serviceConfig = {
-      User = "signoz";
-      Group = "signoz";
-      ExecStart = "podman compose -f ${data/docker-compose.yaml} up";
-      ExecStop = "podman compose -f ${data/docker-compose.yaml} down";
+      User = "root";
+      Group = "wheel";
+      ExecStart = "${lib.getExe pkgs.podman} compose -f ${data/docker-compose.yaml} up";
+      ExecStop = "${lib.getExe pkgs.podman} compose -f ${data/docker-compose.yaml} down";
       Restart = "always";
     };
     wantedBy = [ "multi-user.target" ];
