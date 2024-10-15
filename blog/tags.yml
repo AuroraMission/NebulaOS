@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+nix:
+  label: Nix
+  permalink: /nix
+  description: Everything about Nix ecosystem
