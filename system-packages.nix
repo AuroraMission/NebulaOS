@@ -15,6 +15,7 @@
 
     zx
     bazel
+    nodejs_22
 
     btop
     tshark
@@ -25,6 +26,10 @@
 
     mkpasswd
 
+    nasm
     cargo
+    gcc
+    glibc.static
+    kmod
   ];
 }

@@ -28,8 +28,8 @@
   };
 
   services.xrdp.enable = true;
-services.xrdp.defaultWindowManager = "startplasma-x11";
-services.xrdp.openFirewall = true;
+  services.xrdp.defaultWindowManager = "startplasma-x11";
+  services.xrdp.openFirewall = true;
 
   time.timeZone = "Europe/Warsaw";
   system.stateVersion = "24.11";
