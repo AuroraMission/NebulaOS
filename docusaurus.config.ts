@@ -44,7 +44,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/AuroraMission/NebulaOS'
+          editUrl: 'https://github.com/AuroraMission/NebulaOS',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
