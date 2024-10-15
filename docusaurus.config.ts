@@ -36,7 +36,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/AuroraMission/NebulaOS',
+          editUrl: 'https://github.com/AuroraMission/NebulaOS/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -44,7 +44,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/AuroraMission/NebulaOS',
+          editUrl: 'https://github.com/AuroraMission/NebulaOS/tree/main',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
