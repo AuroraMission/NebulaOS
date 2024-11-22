@@ -3,6 +3,7 @@
   - [ ] Install tealdeer
   - [ ] Intall wikiman
   - [ ] Download Arch and Nix/NixOS wikis
+  - [ ] NebulaOS docosaur documentation
 - [ ] Network Security
   - [ ] Plan stack
     - [ ] Research Anti DDoses (Aiming Cloudflare)
@@ -10,5 +11,14 @@
   - [ ] Implement stack
     - [ ] (...)
 - [ ] Hardware Security
-  - [ ] Implement secure boot 
-  - [ ] Encrypt disk 
+  - [ ] Host Certs server 
+  - [ ] Implement secure boots with disk encryption
+- [ ] Telemetry
+  - [ ] Implement telemetry service (Aiming Signoz)
+  - [ ] Gather OS/Hardware telemetry
+  - [ ] Gather service telemetry
+- [ ] Development workflow
+  - [ ] Host headless Git server
+  - [ ] Organize development tools (Nvim, Zellij, Nushell itp.)
+  - [ ] Integrate pipelines in Git repos
+  - [ ] Fill documentation
