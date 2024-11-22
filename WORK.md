@@ -1,3 +1,14 @@
-[ ] - Integrate nvim with man pages
-[ ] - Install tealdeer
-[ ] - Intall wikiman 
+- [ ] Integrate documentation
+  - [ ] Integrate nvim with man pages
+  - [ ] Install tealdeer
+  - [ ] Intall wikiman
+  - [ ] Download Arch and Nix/NixOS wikis
+- [ ] Network Security
+  - [ ] Plan stack
+    - [ ] Research Anti DDoses (Aiming Cloudflare)
+    - [ ] Research IAM Stack (Aiming Ory Stack Self-hosted) 
+  - [ ] Implement stack
+    - [ ] (...)
+- [ ] Hardware Security
+  - [ ] Implement secure boot 
+  - [ ] Encrypt disk 
