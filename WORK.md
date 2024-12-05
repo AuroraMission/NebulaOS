@@ -1,7 +1,9 @@
 - [ ] Integrate documentation
-  - [ ] Integrate nvim with man pages
-  - [ ] Install tealdeer
-  - [ ] Intall wikiman
+  - [x] Integrate nvim with man pages
+  - [x] Install tealdeer
+    - [ ] Autoupdate database 
+  - [ ] Intall wikiman (Wikiman not found on nixos)
+    - [ ] Port wikiman to nixpkgs  
   - [ ] Download Arch and Nix/NixOS wikis
   - [ ] NebulaOS docosaur documentation
 - [ ] Network Security
