@@ -21,6 +21,7 @@
   - [ ] Gather service telemetry
 - [ ] Development workflow
   - [ ] Host headless Git server
+  - [ ] Install JJ Git Alternative Jujustsu
   - [ ] Organize development tools (Nvim, Zellij, Nushell itp.)
   - [ ] Integrate pipelines in Git repos
   - [ ] Fill documentation
